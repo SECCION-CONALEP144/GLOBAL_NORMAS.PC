@@ -1,0 +1,89 @@
+@font-face {
+    font-family: mediumL;
+    src: url(LEMONMILK-Regular.otf);
+}
+
+
+body {   
+font-family: mediumL;
+margin: 0;
+}
+
+h2 {
+    text-decoration: none;
+    color: #9B59B6 ;
+}
+
+a {
+    text-decoration: none;
+    color: #9B59B6 ; 
+}
+
+header {
+    display: flex;
+    height: 70px;
+    background-color: #FCF3CF;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 100px;
+    margin-right: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+
+.container{
+width: 150%;
+max-width: 1500px;
+height: 830px;
+display:flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: auto;
+    }
+
+.container .card{
+    width: 830px;
+    height: 410px;
+    border-radius: 8px;
+    background-color: #FCF3CF;
+    box-shadow: 0 6px 6px rgb(131, 140, 215);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.30s;
+}
+.container h3{
+    text-decoration: none;
+    color: #e2d98f ;
+}
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 15px 17px rgba(149, 145, 145, 0.641);
+}
+.container .card img{
+    width: 338px;
+    height: 230px;
+    margin: 6px;
+}
+.container .card h3{
+    font-weight: 400;
+}
+.container .card p{
+    padding: 0 2rem;
+    font-size: 16px;
+    font-weight: 300;
+}
